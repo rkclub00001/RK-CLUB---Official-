@@ -547,4 +547,731 @@
     <!-- Our Core Aim & Vision -->
     <div class="card">
         <div class="section-banner">Our Core Aim & Mission</div>
-        <div style="background:#FFF0EB; border-left:5px solid var(--primary); padding:14px; border-radi
+        <div style="background:#FFF0EB; border-left:5px solid var(--primary); padding:14px; border-radius:8px;">
+            <h4 style="color:var(--primary-dark); font-size:15px; margin-bottom:6px;">
+                Social Awareness & Self-Funded Student Innovation
+            </h4>
+            <p style="font-size:13.5px; line-height:1.6; color:#1F2937;">
+                Our primary aim is to spread <strong>Social Awareness</strong> among students and society while helping youth who have a strong interest in <strong>Science and Technology</strong> move forward in life. We organize grand quizzes and award major prizes specifically so that winners who want to build a <strong>new invention, science project, or innovation never have to ask their parents or family for money</strong>—they can fund and build their ideas independently using their prize amount!
+            </p>
+        </div>
+    </div>
+
+    <!-- 5 Core Topics Covered -->
+    <div class="card">
+        <div class="section-banner">What We Cover (Explore Our 5 Pillars)</div>
+        <div class="step-item">
+            <div class="step-num">1</div>
+            <div class="step-text">
+                <h4>Science and Innovation</h4>
+                <p>Practical scientific experiments, real-world physics models, and turning innovative concepts into working prototypes.</p>
+            </div>
+        </div>
+        <div class="step-item">
+            <div class="step-num">2</div>
+            <div class="step-text">
+                <h4>Space and Astronomy</h4>
+                <p>4 to 6 feet rocket models (SLV, ASLV, PSLV, GSLV), satellite technology, telescopes, and space exploration.</p>
+            </div>
+        </div>
+        <div class="step-item">
+            <div class="step-num">3</div>
+            <div class="step-text">
+                <h4>Robotics and AI</h4>
+                <p>Hands-on introduction to Robotics, smart sensors, automation, and Artificial Intelligence applications.</p>
+            </div>
+        </div>
+        <div class="step-item">
+            <div class="step-num">4</div>
+            <div class="step-text">
+                <h4>Cyber Safety and Social Awareness</h4>
+                <p>Digital safety, protection against cyber fraud, responsible internet usage, and positive social awareness.</p>
+            </div>
+        </div>
+        <div class="step-item">
+            <div class="step-num">5</div>
+            <div class="step-text">
+                <h4>Creativity and New Ideas</h4>
+                <p>Encouraging original thinking, creative problem-solving, and student-led grassroots inventions.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Dashboard on Page 1 -->
+    <div class="card">
+        <div class="section-banner">R.K. CLUB Live Dashboard</div>
+        <div class="stats-grid">
+            <div class="stat-box">
+                <h3>30 Days</h3>
+                <p>Practical Sessions</p>
+            </div>
+            <div class="stat-box">
+                <h3>Rs. 50,000</h3>
+                <p>1st Quiz First Prize</p>
+            </div>
+            <div class="stat-box">
+                <h3>Manali Trip</h3>
+                <p>2nd Quiz First Prize</p>
+            </div>
+            <div class="stat-box">
+                <h3 id="dashLiveCount">5 Online</h3>
+                <p>Joined in Live Room</p>
+            </div>
+        </div>
+
+        <h4 style="margin-top:16px; font-size:13.5px; color:var(--navy);">Recent Registered Members (Excel Preview):</h4>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Mobile</th>
+                        <th>Gender/Age</th>
+                        <th>Study / Job</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody id="membersListBody">
+                    <tr>
+                        <td>Demo Member</td>
+                        <td>8307737244</td>
+                        <td>Male / 20</td>
+                        <td>Study: Class 12th</td>
+                        <td>Haryana</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="margin-top:10px;">
+            <button type="button" class="btn-secondary" onclick="downloadExcelSheet()">Download Excel Sheet (.CSV)</button>
+            <button type="button" class="btn-secondary" style="background:#2563EB;" onclick="goPage('quiz')">View Quiz & Prizes</button>
+        </div>
+    </div>
+</div>
+
+<!-- ================= PAGE 2: QUIZ SCHEDULE & PRIZE STRUCTURE ================= -->
+<div class="page-sec" id="sec-quiz" style="display:none;">
+    <div class="card">
+        <div class="section-banner">Why We Give Quiz Prizes (Invention Support)</div>
+        <p style="font-size:13.5px; line-height:1.6; color:#1F2937; background:#FFF5F0; padding:13px; border-radius:10px; border:1px solid #FFCBB8;">
+            <strong>No Need to Ask Family for Project Money:</strong> All prizes in R.K. CLUB are awarded to empower talented students and youth. If you want to build a new invention, science model, or innovative project, this prize fund helps you finance your dream on your own without asking your parents or anyone else for money.
+        </p>
+    </div>
+
+    <!-- 1st Quiz Details -->
+    <div class="card">
+        <div class="section-banner">1st Grand Quiz (Next Day After 30-Day Practice)</div>
+        <p style="font-size:13.5px; color:#374151; margin-bottom:12px; line-height:1.55;">
+            <strong>Schedule & Question Pattern:</strong> The 1st Grand Quiz is conducted on the <strong>very next day (Day 31)</strong> immediately after completing the 30 days of daily practice and live practical sessions. It consists of <strong>100 Multiple-Choice Questions (100 MCQs)</strong> asked directly from the 30 days of practical training.
+        </p>
+        <div class="prize-tier">
+            <span class="prize-rank">1st Prize (Champion)</span>
+            <span class="prize-amount">Rs. 50,000 Cash</span>
+        </div>
+        <div class="prize-tier">
+            <span class="prize-rank">2nd Prize</span>
+            <span class="prize-amount">Rs. 25,000 Cash</span>
+        </div>
+        <div class="prize-tier">
+            <span class="prize-rank">3rd Prize</span>
+            <span class="prize-amount">Rs. 10,000 Cash</span>
+        </div>
+        <div class="prize-tier">
+            <span class="prize-rank">4th Prize</span>
+            <span class="prize-amount">Rs. 5,000 Cash</span>
+        </div>
+        <div class="prize-tier">
+            <span class="prize-rank">5th Prize</span>
+            <span class="prize-amount">Rs. 2,000 Cash</span>
+        </div>
+    </div>
+
+    <!-- 2nd Quiz Details -->
+    <div class="card">
+        <div class="section-banner">2nd Mega Quiz (Next Day After 1st Quiz)</div>
+        <p style="font-size:13.5px; color:#374151; margin-bottom:12px; line-height:1.55;">
+            <strong>Schedule & Question Pattern:</strong> The 2nd Quiz is organized on the <strong>very next day after the 1st Quiz (Day 32)</strong>. This special competition features <strong>50 Multiple-Choice Questions (50 MCQs)</strong> with exciting grand rewards:
+        </p>
+        <div class="prize-tier">
+            <span class="prize-rank">1st Prize (Mega Winner)</span>
+            <span class="prize-amount">Manali Trip</span>
+        </div>
+        <div class="prize-tier">
+            <span class="prize-rank">2nd Prize</span>
+            <span class="prize-amount">LED TV</span>
+        </div>
+        <div class="prize-tier">
+            <span class="prize-rank">3rd Prize</span>
+            <span class="prize-amount">Rs. 2,000 Cash</span>
+        </div>
+
+        <button type="button" class="btn-main" style="margin-top:14px;" onclick="goPage('register')">REGISTER FOR QUIZZES NOW</button>
+    </div>
+</div>
+
+<!-- ================= PAGE 3: EMBEDDED JITSI LIVE PRACTICAL SESSION ================= -->
+<div class="page-sec" id="sec-live" style="display:none;">
+    <div class="live-studio-box">
+        <div class="live-header-bar">
+            <span class="live-badge">JITSI LIVE PRACTICAL ROOM</span>
+            <span class="live-count-badge" id="liveJoinedCounter">Joined Live Now: 5 Participants</span>
+        </div>
+
+        <!-- Embedded Jitsi Video Container -->
+        <div id="jitsiContainer">
+            <div style="padding:18px;">
+                <h3 style="font-size:17px; color:#ffffff; margin-bottom:6px;">R.K. CLUB Live Practical Studio (Jitsi)</h3>
+                <p style="font-size:12.5px; color:#94A3B8; margin-bottom:14px;">
+                    Enter your name below to join the live practical session. Only Admin (Ritesh Kumar) has Host control access; all members join as participants.
+                </p>
+                <input type="text" id="joinUserName" placeholder="Enter Your Full Name to Join" style="max-width:280px; margin-bottom:10px; text-align:center;">
+                <br>
+                <button type="button" class="btn-main" style="max-width:280px; margin:0 auto; background:#16A34A;" onclick="startJitsiSession(false)">
+                    JOIN LIVE SESSION (PARTICIPANT)
+                </button>
+            </div>
+        </div>
+
+        <!-- SELF AUDIO / SPEAKER CONTROLS -->
+        <h4 style="font-size:12.5px; color:#38BDF8; text-transform:uppercase; margin-top:10px;">
+            Your Self Audio & Speaker Controls:
+        </h4>
+        <div class="ctrl-grid">
+            <button type="button" class="ctrl-btn" id="btnSelfMic" onclick="toggleSelfMic()">Self Mic: UNMUTED (Tap to Mute)</button>
+            <button type="button" class="ctrl-btn" id="btnSelfSpk" onclick="toggleSelfSpeaker()">Self Speaker: ON (Tap to Mute)</button>
+        </div>
+
+        <!-- ADMIN HOST ACCESS LOGIN (PIN: 8307) -->
+        <div style="margin-top:14px; padding-top:12px; border-top:1px solid #334155;">
+            <h4 style="font-size:12.5px; color:#FBBF24; margin-bottom:6px;">
+                ADMIN HOST ACCESS (Only for R.K. CLUB Host - PIN: 8307):
+            </h4>
+            <div style="display:flex; gap:8px;">
+                <input type="password" id="adminPinInput" placeholder="Enter Host PIN (8307)" style="padding:8px 10px; font-size:13px;">
+                <button type="button" class="btn-main" style="margin-top:0; width:auto; padding:8px 14px; white-space:nowrap;" onclick="unlockAdminHost()">
+                    Unlock Host Mode
+                </button>
+            </div>
+        </div>
+
+        <!-- SECRET ADMIN MASTER CONTROLS -->
+        <div id="adminHostPanel" style="display:none; margin-top:14px; background:#1E293B; padding:12px; border-radius:10px; border:2px solid #F59E0B;">
+            <div style="color:#FBBF24; font-weight:900; font-size:13px; margin-bottom:8px;">
+                HOST MODERATOR CONTROLS UNLOCKED (Ritesh Kumar - Admin)
+            </div>
+            <div class="ctrl-grid">
+                <button type="button" class="ctrl-btn" style="background:#059669; border-color:#fff;" onclick="startJitsiSession(true)">
+                    1. Launch Jitsi as HOST
+                </button>
+                <button type="button" class="ctrl-btn" id="btnMuteAll" onclick="adminMuteAllParticipants()">
+                    2. Mute ALL Participants Mic
+                </button>
+                <button type="button" class="ctrl-btn" id="btnSpkAll" onclick="adminOffAllSpeakers()">
+                    3. Turn ALL Speakers OFF
+                </button>
+                <button type="button" class="ctrl-btn" onclick="adminShareScreen()">
+                    4. Share Practical Screen
+                </button>
+            </div>
+            <p id="adminActionStatus" style="font-size:12px; color:#A7F3D0; margin-top:8px; font-weight:700;">
+                Status: Host controls ready. You have full authority over all joined participants.
+            </p>
+        </div>
+    </div>
+
+    <!-- LIVE PARTICIPANTS ROSTER -->
+    <div class="card">
+        <div class="section-banner">Live Joined Participants (Individual Mic & Speaker Control)</div>
+        <p style="font-size:12.5px; color:#4B5563; margin-bottom:10px;">
+            Live list of members connected in the session. Admin can mute/unmute any participant's microphone or turn off their speaker individually or all at once:
+        </p>
+
+        <div id="participantsListContainer">
+            <div class="participant-row">
+                <span class="part-name">1. Aman Sharma (Student)</span>
+                <div>
+                    <button type="button" class="part-btn p-mic" onclick="toggleSinglePart(this, 'Mic')">Mic: ON</button>
+                    <button type="button" class="part-btn p-spk" onclick="toggleSinglePart(this, 'Speaker')">Speaker: ON</button>
+                </div>
+            </div>
+            <div class="participant-row">
+                <span class="part-name">2. Priya Verma (Student)</span>
+                <div>
+                    <button type="button" class="part-btn p-mic" onclick="toggleSinglePart(this, 'Mic')">Mic: ON</button>
+                    <button type="button" class="part-btn p-spk" onclick="toggleSinglePart(this, 'Speaker')">Speaker: ON</button>
+                </div>
+            </div>
+            <div class="participant-row">
+                <span class="part-name">3. Rohit Kumar (Student)</span>
+                <div>
+                    <button type="button" class="part-btn p-mic" onclick="toggleSinglePart(this, 'Mic')">Mic: ON</button>
+                    <button type="button" class="part-btn p-spk" onclick="toggleSinglePart(this, 'Speaker')">Speaker: ON</button>
+                </div>
+            </div>
+            <div class="participant-row">
+                <span class="part-name">4. Neha Gupta (PG Student)</span>
+                <div>
+                    <button type="button" class="part-btn p-mic" onclick="toggleSinglePart(this, 'Mic')">Mic: ON</button>
+                    <button type="button" class="part-btn p-spk" onclick="toggleSinglePart(this, 'Speaker')">Speaker: ON</button>
+                </div>
+            </div>
+            <div class="participant-row">
+                <span class="part-name">5. Vikas Singh (Working)</span>
+                <div>
+                    <button type="button" class="part-btn p-mic" onclick="toggleSinglePart(this, 'Mic')">Mic: ON</button>
+                    <button type="button" class="part-btn p-spk" onclick="toggleSinglePart(this, 'Speaker')">Speaker: ON</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ================= PAGE 4: REWARDS & R.K. COINS ================= -->
+<div class="page-sec" id="sec-rewards" style="display:none;">
+    <div class="card">
+        <div class="section-banner">R.K. Coins & Daily Task Benefits</div>
+        <p style="font-size:13.5px; color:#374151; margin-bottom:12px; line-height:1.55;">
+            Members can collect <strong>R.K. Coins</strong> daily by completing daily tasks and practice quizzes during the 30-day program.<br>
+            <strong>Your Current Wallet Balance: <span id="walletCoinCount" style="color:var(--primary);">100 R.K. Coins</span></strong>
+        </p>
+        <div class="step-item">
+            <div class="step-num">A</div>
+            <div class="step-text">
+                <h4>Benefit 1: Increase Your Exam Marks (+Bonus Score)</h4>
+                <p>Use your collected R.K. Coins to boost your marks in the final MCQ examination (+2 to +10 bonus marks) to improve your winning rank.</p>
+            </div>
+        </div>
+        <div class="step-item">
+            <div class="step-num">B</div>
+            <div class="step-text">
+                <h4>Benefit 2: Redeem for Free Gifts & Science Kits</h4>
+                <p>Exchange your R.K. Coins directly for exciting gifts, DIY science kits, and innovation rewards.</p>
+            </div>
+        </div>
+        <button type="button" class="btn-secondary" onclick="claimDailyTaskCoins()">Claim +50 Daily Task R.K. Coins</button>
+        <button type="button" class="btn-main" style="margin-top:12px;" onclick="goPage('register')">JOIN NOW TO EARN R.K. COINS</button>
+    </div>
+</div>
+
+<!-- ================= PAGE 5: MEMBER REGISTRATION ================= -->
+<div class="page-sec" id="sec-register" style="display:none;">
+    <div class="card">
+        <div class="section-banner">Official R.K. CLUB Registration Form</div>
+        <p style="font-size:13px; color:#4B5563; margin-bottom:14px;">
+            Fill out your complete details below. Upon submission, your registration data is automatically sent in Excel Table format to <strong>rkclub00001@gmail.com</strong> and saved as an Excel (.CSV) file.
+        </p>
+
+        <form id="rkRegForm" action="https://formsubmit.co/rkclub00001@gmail.com" method="POST" onsubmit="handleFormSubmit(event)">
+            <input type="hidden" name="_subject" value="New R.K. CLUB Member Registration!">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="form-group">
+                <label>1. Full Name *</label>
+                <input type="text" id="regName" name="1_Full_Name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label>2. Mobile / WhatsApp Number *</label>
+                <input type="tel" id="regPhone" name="2_Mobile_Number" placeholder="Enter 10-digit mobile number" pattern="[0-9]{10}" required>
+            </div>
+
+            <div class="form-group">
+                <label>3. Complete Address *</label>
+                <textarea id="regAddress" name="3_Address" rows="2" placeholder="House No, Street/Village, City, State, Pin Code" required></textarea>
+            </div>
+
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+                <div class="form-group">
+                    <label>4. Gender *</label>
+                    <select id="regGender" name="4_Gender" required>
+                        <option value="">-- Select --</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>5. Age (Years) *</label>
+                    <input type="number" id="regAge" name="5_Age" min="5" max="80" placeholder="Ex: 18" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>6. Do You Study or Do a Job? *</label>
+                <select name="6_Occupation" id="occSelect" onchange="toggleOccFields()" required>
+                    <option value="Study">Study (Student)</option>
+                    <option value="Job">Job (Working Professional)</option>
+                </select>
+            </div>
+
+            <!-- Study Option: Class 5th to Postgraduate -->
+            <div id="studyFieldBox" style="display:block; background:#FFF3EE; padding:12px; border-radius:10px; border-left:4px solid var(--primary); margin-bottom:12px;">
+                <label style="font-size:13px; font-weight:700; display:block; margin-bottom:5px;">Select Your Class (Class 5th to Postgraduate) *</label>
+                <select id="regClass" name="7_Student_Class">
+                    <option value="Class 5th">Class 5th</option>
+                    <option value="Class 6th">Class 6th</option>
+                    <option value="Class 7th">Class 7th</option>
+                    <option value="Class 8th">Class 8th</option>
+                    <option value="Class 9th">Class 9th</option>
+                    <option value="Class 10th">Class 10th</option>
+                    <option value="Class 11th">Class 11th (Science / Commerce / Arts)</option>
+                    <option value="Class 12th">Class 12th (Science / Commerce / Arts)</option>
+                    <option value="Undergraduate (UG)">Undergraduate - UG (B.A / B.Sc / B.Com / B.Tech / BCA / BBA)</option>
+                    <option value="Postgraduate (PG)">Postgraduate - PG (M.A / M.Sc / M.Com / MBA / MCA / M.Tech)</option>
+                </select>
+            </div>
+
+            <!-- Job Option: Job Field -->
+            <div id="jobFieldBox" style="display:none; background:#FFF3EE; padding:12px; border-radius:10px; border-left:4px solid var(--primary); margin-bottom:12px;">
+                <label style="font-size:13px; font-weight:700; display:block; margin-bottom:5px;">Select Your Job Field / Sector *</label>
+                <select id="regJobField" name="8_Job_Field">
+                    <option value="Not Applicable">-- Select Job Field --</option>
+                    <option value="Teaching / Education">Teaching / Education</option>
+                    <option value="IT / Software / Computer">IT / Software / Computer</option>
+                    <option value="Engineering / Technical / Manufacturing">Engineering / Technical / Manufacturing</option>
+                    <option value="Medical / Healthcare / Pharmacy">Medical / Healthcare / Pharmacy</option>
+                    <option value="Banking / Finance / Accounting">Banking / Finance / Accounting</option>
+                    <option value="Sales / Marketing / E-Commerce">Sales / Marketing / E-Commerce</option>
+                    <option value="Government Service / Defence">Government Service / Defence</option>
+                    <option value="Business / Self-Employed">Business / Self-Employed</option>
+                    <option value="Other Job Field">Other Job Field</option>
+                </select>
+                <input type="text" id="regCustomJob" name="9_Job_Details" placeholder="Specify Job Role or Company Name (Optional)" style="margin-top:8px;">
+            </div>
+
+            <button type="submit" class="btn-main" id="submitRegBtn">SUBMIT REGISTRATION</button>
+        </form>
+
+        <div id="regSuccessBox" style="display:none; margin-top:16px; background:#ECFDF5; border:2px solid #10B981; padding:14px; border-radius:10px;">
+            <h4 style="color:#065F46;">Registration Submitted Successfully!</h4>
+            <p style="font-size:12.5px; color:#047857; margin-top:5px;">
+                Your registration details have been sent to <strong>rkclub00001@gmail.com</strong> in Excel Table format.
+            </p>
+            <div style="margin-top:10px;">
+                <button type="button" class="btn-secondary" onclick="downloadExcelSheet()">Download Excel File (.CSV)</button>
+                <button type="button" class="btn-secondary" style="background:#16A34A;" onclick="sendDirectWhatsApp()">Send to Admin WhatsApp (8307737244)</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ================= PAGE 6: CONTACT & SUPPORT DESK ================= -->
+<div class="page-sec" id="sec-contact" style="display:none;">
+    <div class="card">
+        <div class="section-banner">Contact R.K. CLUB Support Desk</div>
+        <p style="font-size:13.5px; color:#374151; line-height:1.55; margin-bottom:14px;">
+            Need assistance with Member Registration, Jitsi Live Practical Sessions, R.K. Coins, or Quiz Competitions? Contact our official support team anytime:
+        </p>
+
+        <div class="step-item">
+            <div class="step-num">1</div>
+            <div class="step-text">
+                <h4>Official Call & WhatsApp Helpline</h4>
+                <p><strong>+91 8307737244</strong> (Direct Call & 24x7 WhatsApp Support)</p>
+            </div>
+        </div>
+
+        <div class="step-item">
+            <div class="step-num">2</div>
+            <div class="step-text">
+                <h4>Official Club Email IDs</h4>
+                <p><strong>rkclub00001@gmail.com</strong> | <strong>rkclub0001@gmail.com</strong></p>
+            </div>
+        </div>
+
+        <div class="step-item">
+            <div class="step-num">3</div>
+            <div class="step-text">
+                <h4>Support Desk Timings</h4>
+                <p>Monday to Saturday: 9:00 AM to 8:00 PM IST</p>
+            </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:14px;">
+            <a href="https://wa.me/918307737244?text=Hello%20R.K.%20CLUB%2C%20I%20need%20information%20about%20joining." target="_blank" class="btn-main" style="background:#16A34A; margin-top:0;">WhatsApp Chat</a>
+            <a href="mailto:rkclub00001@gmail.com?subject=R.K.%20CLUB%20Support" class="btn-main" style="margin-top:0;">Send Email</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    var jitsiApi = null;
+    var selfMicMuted = false;
+    var selfSpkMuted = false;
+    var liveParticipantCount = 5;
+    var currentCoins = 100;
+    var latestSubmissionText = "";
+    var registrationsList = [
+        {
+            name: "Demo Member",
+            phone: "8307737244",
+            address: "Haryana",
+            gender: "Male",
+            age: "20",
+            occupation: "Study",
+            detail: "Class 12th",
+            time: "Active"
+        }
+    ];
+
+    function toggleDropdown() {
+        var d = document.getElementById('topDropdown');
+        d.style.display = (d.style.display === 'block') ? 'none' : 'block';
+    }
+
+    function goPage(pageName) {
+        var pages = ['home', 'quiz', 'live', 'rewards', 'register', 'contact'];
+        for (var i = 0; i < pages.length; i++) {
+            var sec = document.getElementById('sec-' + pages[i]);
+            var tab = document.getElementById('tab-' + pages[i]);
+            if (sec) sec.style.display = (pages[i] === pageName) ? 'block' : 'none';
+            if (tab) tab.className = (pages[i] === pageName) ? 'tab-btn active-tab' : 'tab-btn';
+        }
+        document.getElementById('topDropdown').style.display = 'none';
+        window.scrollTo(0, 0);
+    }
+
+    function toggleOccFields() {
+        var val = document.getElementById('occSelect').value;
+        document.getElementById('studyFieldBox').style.display = (val === 'Study') ? 'block' : 'none';
+        document.getElementById('jobFieldBox').style.display = (val === 'Job') ? 'block' : 'none';
+    }
+
+    function claimDailyTaskCoins() {
+        currentCoins += 50;
+        document.getElementById('walletCoinCount').innerText = currentCoins + " R.K. Coins";
+        alert("Congratulations! +50 R.K. Coins added to your wallet.");
+    }
+
+    function unlockAdminHost() {
+        var pin = document.getElementById('adminPinInput').value.trim();
+        if (pin === '8307') {
+            document.getElementById('adminHostPanel').style.display = 'block';
+            alert('Welcome Ritesh Kumar (Host)! Admin Host Controls are now unlocked.');
+        } else {
+            alert('Invalid Host PIN! Only R.K. CLUB Admin can unlock Host Controls.');
+        }
+    }
+
+    function startJitsiSession(isHost) {
+        var container = document.getElementById('jitsiContainer');
+        var userNameInput = document.getElementById('joinUserName');
+        var displayName = (userNameInput && userNameInput.value.trim() !== '') ? userNameInput.value.trim() : 'R.K. CLUB Member';
+        if (isHost) {
+            displayName = 'Ritesh Kumar (ADMIN HOST)';
+        }
+
+        container.innerHTML = '';
+
+        var toolbarList = isHost
+            ? ['microphone', 'camera', 'desktop', 'chat', 'raisehand', 'participants-pane', 'tileview', 'mute-everyone', 'hangup']
+            : ['microphone', 'camera', 'chat', 'raisehand', 'tileview', 'hangup'];
+
+        try {
+            jitsiApi = new JitsiMeetExternalAPI('meet.jit.si', {
+                roomName: 'RK_CLUB_Official_Live_Practical_Studio_8307737244',
+                width: '100%',
+                height: 360,
+                parentNode: container,
+                userInfo: { displayName: displayName },
+                configOverwrite: {
+                    startWithAudioMuted: !isHost,
+                    startWithVideoMuted: !isHost,
+                    prejoinPageEnabled: false,
+                    disableRemoteMute: !isHost
+                },
+                interfaceConfigOverwrite: {
+                    TOOLBAR_BUTTONS: toolbarList
+                }
+            });
+
+            liveParticipantCount += 1;
+            updateLiveCounters();
+
+            var listBox = document.getElementById('participantsListContainer');
+            var row = document.createElement('div');
+            row.className = 'participant-row';
+            row.innerHTML = '<span class="part-name">' + liveParticipantCount + '. ' + displayName + ' (Joined Now)</span>' +
+                '<div>' +
+                '<button type="button" class="part-btn p-mic" onclick="toggleSinglePart(this, \'Mic\')">Mic: ON</button> ' +
+                '<button type="button" class="part-btn p-spk" onclick="toggleSinglePart(this, \'Speaker\')">Speaker: ON</button>' +
+                '</div>';
+            listBox.appendChild(row);
+
+            jitsiApi.addEventListener('participantJoined', function() {
+                liveParticipantCount += 1;
+                updateLiveCounters();
+            });
+            jitsiApi.addEventListener('participantLeft', function() {
+                if (liveParticipantCount > 1) liveParticipantCount -= 1;
+                updateLiveCounters();
+            });
+        } catch (err) {
+            container.innerHTML = '<div style="padding:20px; color:#fff;">Jitsi Live Stream Ready. Please check your internet connection and tap Join again.</div>';
+        }
+    }
+
+    function updateLiveCounters() {
+        document.getElementById('liveJoinedCounter').innerText = 'Joined Live Now: ' + liveParticipantCount + ' Participants';
+        document.getElementById('dashLiveCount').innerText = liveParticipantCount + ' Online';
+    }
+
+    function toggleSelfMic() {
+        selfMicMuted = !selfMicMuted;
+        var btn = document.getElementById('btnSelfMic');
+        if (jitsiApi) jitsiApi.executeCommand('toggleAudio');
+        btn.innerText = selfMicMuted ? 'Self Mic: MUTED (Tap to Unmute)' : 'Self Mic: UNMUTED (Tap to Mute)';
+        btn.className = selfMicMuted ? 'ctrl-btn active-red' : 'ctrl-btn';
+    }
+
+    function toggleSelfSpeaker() {
+        selfSpkMuted = !selfSpkMuted;
+        var btn = document.getElementById('btnSelfSpk');
+        btn.innerText = selfSpkMuted ? 'Self Speaker: MUTED (Audio Off)' : 'Self Speaker: ON (Tap to Mute)';
+        btn.className = selfSpkMuted ? 'ctrl-btn active-red' : 'ctrl-btn';
+    }
+
+    function adminMuteAllParticipants() {
+        if (jitsiApi) jitsiApi.executeCommand('muteEveryone');
+        var micBtns = document.querySelectorAll('.p-mic');
+        for (var i = 0; i < micBtns.length; i++) {
+            micBtns[i].innerText = 'Mic: MUTED';
+            micBtns[i].className = 'part-btn p-mic muted-state';
+        }
+        document.getElementById('adminActionStatus').innerText = 'Status: Admin muted ALL participant microphones at once.';
+    }
+
+    function adminOffAllSpeakers() {
+        var spkBtns = document.querySelectorAll('.p-spk');
+        for (var i = 0; i < spkBtns.length; i++) {
+            spkBtns[i].innerText = 'Speaker: OFF';
+            spkBtns[i].className = 'part-btn p-spk muted-state';
+        }
+        document.getElementById('adminActionStatus').innerText = 'Status: Admin turned OFF all participant speakers at once.';
+    }
+
+    function adminShareScreen() {
+        if (jitsiApi) jitsiApi.executeCommand('toggleShareScreen');
+        document.getElementById('adminActionStatus').innerText = 'Status: Host screen sharing toggled in Jitsi room.';
+    }
+
+    function toggleSinglePart(btn, type) {
+        if (btn.innerText.indexOf('ON') !== -1) {
+            btn.innerText = type + ': OFF';
+            btn.className = 'part-btn ' + (type === 'Mic' ? 'p-mic' : 'p-spk') + ' muted-state';
+        } else {
+            btn.innerText = type + ': ON';
+            btn.className = 'part-btn ' + (type === 'Mic' ? 'p-mic' : 'p-spk');
+        }
+    }
+
+    function handleFormSubmit(e) {
+        e.preventDefault();
+        var submitBtn = document.getElementById('submitRegBtn');
+        submitBtn.innerText = "Submitting Registration...";
+
+        var name = document.getElementById('regName').value.trim();
+        var phone = document.getElementById('regPhone').value.trim();
+        var address = document.getElementById('regAddress').value.trim();
+        var gender = document.getElementById('regGender').value;
+        var age = document.getElementById('regAge').value;
+        var occupation = document.getElementById('occSelect').value;
+
+        var detail = "";
+        if (occupation === 'Study') {
+            detail = document.getElementById('regClass').value;
+        } else {
+            var jf = document.getElementById('regJobField').value;
+            var cj = document.getElementById('regCustomJob').value.trim();
+            detail = cj ? (jf + " - " + cj) : jf;
+        }
+
+        var nowTime = new Date().toLocaleString();
+        var entry = {
+            name: name,
+            phone: phone,
+            address: address,
+            gender: gender,
+            age: age,
+            occupation: occupation,
+            detail: detail,
+            time: nowTime
+        };
+        registrationsList.push(entry);
+
+        var tbody = document.getElementById('membersListBody');
+        var tr = document.createElement('tr');
+        tr.innerHTML = "<td>" + entry.name + "</td>" +
+                       "<td>" + entry.phone + "</td>" +
+                       "<td>" + entry.gender + " / " + entry.age + "</td>" +
+                       "<td>" + entry.occupation + ": " + entry.detail + "</td>" +
+                       "<td>" + entry.address + "</td>";
+        tbody.appendChild(tr);
+
+        var csvRow = '"' + entry.name + '","' + entry.phone + '","' + entry.gender + '","' + entry.age + '","' + entry.occupation + '","' + entry.detail + '","' + entry.address + '","' + entry.time + '"';
+
+        latestSubmissionText =
+            "NEW R.K. CLUB REGISTRATION\n" +
+            "--------------------------\n" +
+            "Name: " + entry.name + "\n" +
+            "Mobile: " + entry.phone + "\n" +
+            "Gender/Age: " + entry.gender + " / " + entry.age + "\n" +
+            "Study/Job: " + entry.occupation + " (" + entry.detail + ")\n" +
+            "Address: " + entry.address + "\n" +
+            "Time: " + entry.time;
+
+        fetch("https://formsubmit.co/ajax/rkclub00001@gmail.com", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+                _subject: "New R.K. CLUB Registration - " + entry.name,
+                _template: "table",
+                Full_Name: entry.name,
+                Mobile_Number: entry.phone,
+                Gender: entry.gender,
+                Age: entry.age,
+                Study_Or_Job: entry.occupation,
+                Class_Or_Job_Field: entry.detail,
+                Complete_Address: entry.address,
+                Excel_CSV_Row: csvRow,
+                Submission_Time: entry.time
+            })
+        }).then(function() {
+            submitBtn.innerText = "SUBMIT REGISTRATION";
+        }).catch(function() {
+            submitBtn.innerText = "SUBMIT REGISTRATION";
+        });
+
+        document.getElementById('regSuccessBox').style.display = 'block';
+        document.getElementById('rkRegForm').reset();
+        toggleOccFields();
+        downloadExcelSheet();
+    }
+
+    function downloadExcelSheet() {
+        var csv = "Name,Mobile,Gender,Age,Study_Or_Job,Class_Or_Field,Address,Time\n";
+        for (var i = 0; i < registrationsList.length; i++) {
+            var r = registrationsList[i];
+            csv += '"' + r.name + '","' + r.phone + '","' + r.gender + '","' + r.age + '","' + r.occupation + '","' + r.detail + '","' + r.address.replace(/"/g, '""') + '","' + r.time + '"\n';
+        }
+        var blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        var link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = "RK_Club_Members_Sheet.csv";
+        link.click();
+    }
+
+    function sendDirectWhatsApp() {
+        if (!latestSubmissionText) return;
+        var waUrl = "https://wa.me/918307737244?text=" + encodeURIComponent(latestSubmissionText);
+        window.open(waUrl, "_blank");
+    }
+</script>
+
+</body>
+</html>
